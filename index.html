@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style/main.css?v=7">
+	<script src="node_modules/sal.js/dist/sal.js"></script>
+	<link rel="stylesheet" href="node_modules/sal.js/dist/sal.css">
+</head>
+<body>
+	<div class="line-block" style="display: none;">
+		<a href="#visi" class="scroll-down-btn"><i id="icon-arrow-down" class="fa-solid fa-angles-down"></i> Scroll or Click</a>
+	</div>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="" class="navbar-item" id="mylogo">
+                <img class="logo-top" src="img/logo.jpg" width="auto" height="100%" alt="Logo Surabaya Dev">
+            </a>
+
+            <a role="button" id="open-sidebar" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a href="#benefit" class="navbar-item">
+                  	Why Us?
+                </a>
+            </div>
+        
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-success" href="#join-us">
+                            <strong>Gabung Yuk!</strong>
+                        </a>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </nav>
+	<section class="sidebar" id="sidebar">
+		<h1 class="sidebar-title">
+			Menu
+			<div class="close-sidebar-btn" id="cls-sidebar">
+				<i class="fa-solid fa-xmark"></i>
+			</div>
+		</h1>
+		<a href="#benefit" class="sidebar-item">
+			Why Us?
+		</a>
+		<a href="#footer" class="sidebar-item">
+			About Creator
+		</a>
+	</section>
+    <header class="header" id="top-header">
+        <div class="top-header">
+			<section class="top-banner-text">
+				<h1 class="title is-2">
+					Halo, Sobat Dev!
+				</h1>
+				<div class="field is-text">
+					<p class="subtitle is-4">
+						Selamat datang di kumpulan orang yang suka dengan update teknologi, belajar, berbagi dan suka berkontribusi.
+					</p>
+				</div>
+			</section>
+			<section class="img-header">
+				<img src="img/header-img-01.jpg" width="90%" height="auto" alt="">
+			</section>
+		</div>
+    </header>
+    <main>
+        <div class="page" id="visi">
+            <section class="visi" data-sal="slide-left" data-sal-duration="1000">
+                <h2 class="title is-2 has-text-light">
+                    Visi & Misi
+                </h2>
+				<hr>
+                <p class="subtitle is-4 has-text-light">
+                    Surabaya Dev bertujuan menjadi wadah talenta teknologi dengan memanfaatkan potensinya  untuk meningkatkan skill tech di bidang  programming maupun digital teknologi agar dapat saling bersinergi berkolaborasi.
+                </p>
+            </section>
+            <section class="item-box" data-sal="slide-up" data-sal-duration="1000">
+                <article class="message">
+                    <div class="message-header">
+                      <p>Wadah Belajar</p>
+                    </div>
+                    <div class="message-body">
+                        Menjadi wadah belajar pegiat IT untuk bisa terus update mengenai tech industry saat ini.
+                    </div>
+                </article>
+    
+                <article class="message">
+                    <div class="message-header">
+                      <p>Koneksi</p>
+                    </div>
+                    <div class="message-body">
+                        Memperluas relasi melalui komunitas untuk menjalin kebermanfaatan.
+                    </div>
+                </article>
+    
+                <article class="message">
+                    <div class="message-header">
+                      <p>Berbagi Ilmu</p>
+                    </div>
+                    <div class="message-body">
+                        Komunitas adalah wadah yang tepat untuk bisa saling berbagi ilmu, pengalaman maupun wawasan tentang update teknologi.
+                    </div>
+                </article>
+            </section>
+        </div>
+
+		<section id="activity">
+			<div class="activity" data-sal="fade" data-sal-duration="1000">
+				<section class="activity-text">
+					<h2 class="title is-2">
+						Kegiatan Surabaya Dev
+					</h2>
+					<div class="activity-item">
+						<h3 class="title is-4">Meet Up</h3>
+						<p class="subtitle is-6">
+							Kegiatan bersama topik teknologi & programming secara online maupun offline.
+						</p>
+					</div>
+					<div class="activity-item">
+						<h3 class="title is-4">Upgrading Skill</h3>
+						<p class="subtitle is-6">
+							Kegiatan bersama topik teknologi & programming secara online maupun offline.
+						</p>
+					</div>
+					<div class="activity-item">
+						<h3 class="title is-4">Kolaborasi Komunitas</h3>
+						<p class="subtitle is-6">
+							Kegiatan bersama topik teknologi & programming secara online maupun offline.
+						</p>
+					</div>
+				</section>
+				<section class="activity-image">
+					<div class="image-item">
+						<img src="img/bgsatu.jpg" width="auto" height="90%" alt="Gambar Aktifitas">
+					</div>
+				</section>
+			</div>
+		</section>
+
+		<section class="page" id="benefit">
+			<section class="visi">
+                <h2 class="title is-2 has-text-light mb-5" data-sal="slide-left" data-sal-duration="1000">
+                    Ayo Gabung! <br>Tim SurabayaDev Generasi 3.0
+                </h2>
+				<hr data-sal="slide-left" data-sal-duration="1000">
+                <p class="subtitle is-4 has-text-light" data-sal="slide-left" data-sal-duration="1000">
+					<strong class="subtitle is-4 has-text-light">Kenapa Harus Gabung Bersama Surabaya Dev?</strong> <br>
+                    Kami mencari orang-orang spesial untuk menjadi pengurus di tim SurabayaDev. <br>
+					Komunitas adalah tempat yang tepat untuk kamu yang suka dengan berbagi ilmu dan waktu.
+				</p>
+            </section>
+            <section class="item-box" data-sal="slide-up" data-sal-duration="1000">
+                <article class="message">
+                    <div class="message-header">
+                      <p>Suka Belajar Hal Baru</p>
+                    </div>
+                    <div class="message-body">
+                        Komunitas menyediakan wadah untuk bereksplorasi tanpa batas.
+                    </div>
+                </article>
+    
+                <article class="message">
+                    <div class="message-header">
+                      <p>Berinteraksi Dengan Banyak Orang</p>
+                    </div>
+                    <div class="message-body">
+                        Relasi adalah bagian utama sehingga menjadi bekal untuk koneksi di kemudian hari.
+                    </div>
+                </article>
+    
+                <article class="message">
+                    <div class="message-header">
+                      <p>Mengasah Kemampuan</p>
+                    </div>
+                    <div class="message-body">
+                        SurabayaDev bukan hanya untuk programmer tapi untuk semua orang yang ingin berkembang di era digital.
+                    </div>
+                </article>
+            </section>
+		</section>
+
+		<section class="join-us" id="join-us" data-sal="slide-up" data-sal-duration="1000">
+			<div class="activity">
+				<section class="activity-text">
+					<h2 class="title is-2 has-text-centered">
+						Daftar Sekarang!
+					</h2>
+					<div class="field has-text-centered">
+						<a href="http://bit.ly/DAFTARSBYDEV2023" class="button is-dark is-rounded is-medium">Join Us</a>
+					</div>
+					<section class="social-media">
+						<h3 class="title is-4">Hubungi Kami</h3>
+						<div class="social-button">
+							<div class="social-item">
+								<i class="fa-solid fa-square-envelope"></i>
+							</div>
+							<div class="social-item">
+								<i class="fa-brands fa-square-facebook"></i>
+							</div>
+							<div class="social-item">
+								<i class="fa-brands fa-square-instagram"></i>
+							</div>
+							<div class="social-item">
+								<i class="fa-brands fa-square-whatsapp"></i>
+							</div>
+						</div>
+					</section>
+				</section>
+				<section class="activity-image">
+					<div class="image-item">
+						<img src="img/bgsatu.jpg" width="auto" height="100%" alt="Gambar Aktifitas">
+					</div>
+				</section>
+			</div>
+		</section>
+    </main>
+	<footer class="footer" id="footer">
+		<a href="https://instagram.com/yusufbagus_s" class="creator">
+			@yusufbagus_s
+		</a>
+		<a href="http://bulma.io" class="bulma">
+			Bulma.io
+		</a>
+		<a href="https://mciastek.github.io/sal/" class="saljs">
+			Sal.JS
+		</a>
+	</footer>
+    <script src="js/main.js?v=2"></script>
+	<script src="https://kit.fontawesome.com/c036512f7c.js" crossorigin="anonymous"></script>
+</body>
+</html>
